@@ -165,7 +165,7 @@ function getMainMaxTemp(data) {
         return '...';
     }
 }
-//Find out were the laptop is. #notstalking
+//Finding location
 function getUserCoordinates(callback) {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(function(position) {
